@@ -174,3 +174,92 @@ The completed atlas provides the following capabilities:
 - Reproducible humanitarian GIS workflow
 - Settlement-level humanitarian data integration
 
+## Technologies
+
+### Programming Language
+
+- Python
+
+### Data Analysis
+
+- Pandas
+
+### Geospatial Analysis
+
+- GeoPandas
+- Shapely
+
+### Interactive Mapping
+
+- Folium
+
+### Similarity Analysis
+
+- difflib (SequenceMatcher)
+
+## Techniques Demonstrated
+
+- Data harmonisation across multiple humanitarian datasets
+- Column standardisation and schema alignment
+- Administrative boundary validation using ADM3 Pcodes
+- Settlement name normalisation
+- String similarity matching (SequenceMatcher)
+- Match quality classification
+- Settlement-level data integration
+- GeoDataFrame creation
+- Coordinate Reference System (EPSG:4326) management
+- Interactive web mapping with Folium
+- Layer management and visualisation
+- Reproducible humanitarian GIS workflow
+
+## Results
+
+The integration workflow successfully combined humanitarian population indicators with settlement-level geographic data to produce an interactive displacement and return atlas for Syria.
+
+### Integration Summary
+
+| Item | Result |
+|------|--------:|
+| IOM assessment records | ~33,000 |
+| HOT OpenStreetMap settlements | ~9,300 |
+| Shared ADM3 administrative areas | 268 |
+| High-confidence matched settlements | 29.1% of processed records |
+
+### Population Indicators Included
+
+- Residents
+- Internally Displaced Persons (IDPs)
+- IDP Returnees (from December 2024)
+- Total Population
+
+### Atlas Outputs
+
+- Interactive Folium web atlas
+- Settlement-level humanitarian visualisation
+- Layer switching for four population indicators
+- Administrative boundary overlays
+- River and lake overlays
+- Hover tooltips and pop-up information
+
+The project demonstrates that independent humanitarian and geographic datasets can be integrated into a reproducible settlement-level GIS workflow through systematic validation, data harmonisation and quality-controlled matching.
+
+## Future Development
+
+This atlas represents the first stage of a broader humanitarian geospatial analysis framework for Syria.
+
+Future developments may include:
+
+- Integration of additional humanitarian assessment datasets
+- Time-series analysis of displacement and return trends
+- Multi-source humanitarian data integration
+- Climate hazard and displacement interaction analysis
+- Automated data update workflows
+- Expansion to additional humanitarian indicators
+
+The workflow developed in this project provides a reproducible foundation for future humanitarian GIS analyses.
+
+## Closing Statement
+
+This project demonstrates how independent humanitarian datasets can be transformed into reproducible geospatial information through systematic validation, integration and interactive mapping.
+
+The atlas was developed as part of a continuing effort to apply open-source geospatial technologies to humanitarian analysis and decision support.
