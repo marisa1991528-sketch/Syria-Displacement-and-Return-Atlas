@@ -17,27 +17,27 @@ The resulting interactive atlas visualises settlement-level information on resid
 The project follows a structured humanitarian geospatial data integration workflow:
 
 1. IOM baseline population data
-            ↓
+
 2. HOT OpenStreetMap settlement data
-            ↓
+
 3. Data cleaning and column standardisation
-            ↓
+
 4. ADM3 PCode validation
-            ↓
+
 5. Settlement name normalisation
-            ↓
+
 6. Settlement matching within common ADM3 areas
-            ↓
+
 7. String similarity scoring
-            ↓
+
 8. Match quality classification
-            ↓
+
 9. HOT settlement geometry integration
-            ↓
+
 10. Geo DataFrame creation
-            ↓
+
 11. High-confidence record selection
-            ↓
+
 12. Interactive Folium atlas
 
 This workflow separates data validation, matching, quality control and mapping into distinct stages, allowing each step to be inspected and reproduced independently.
