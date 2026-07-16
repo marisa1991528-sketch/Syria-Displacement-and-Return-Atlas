@@ -1,8 +1,14 @@
 # Syria Displacement and Return Atlas
 
+🇯🇵 Japanese version: [README_JP.md](README_JP.md)
+
 Settlement-level displacement and return atlas for Syria built with Python, Pandas, GeoPandas and Folium by integrating humanitarian datasets from the International Organization for Migration (IOM) and OpenStreetMap.
 
 This project demonstrates a complete humanitarian GIS workflow, from data validation and settlement matching to interactive web mapping, using real-world population and displacement datasets.
+
+## View the Atlas
+
+- [Open the interactive atlas](URL)
 
 ## Project Overview
 
@@ -34,7 +40,7 @@ The project follows a structured humanitarian geospatial data integration workfl
 
 9. HOT settlement geometry integration
 
-10. Geo DataFrame creation
+10. GeoDataFrame creation
 
 11. High-confidence record selection
 
@@ -223,7 +229,7 @@ The integration workflow successfully combined humanitarian population indicator
 | IOM assessment records | ~33,000 |
 | HOT OpenStreetMap settlements | ~9,300 |
 | Shared ADM3 administrative areas | 268 |
-| High-confidence matched settlements | 29.1% of processed records |
+| High-confidence records selected | 29.1% of processed records |
 
 ### Population Indicators Included
 
