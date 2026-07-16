@@ -8,7 +8,7 @@ This project demonstrates a complete humanitarian GIS workflow, from data valida
 
 ## View the Atlas
 
-- [Open the interactive atlas](URL)
+- [Open the interactive atlas](https://marisa1991528-sketch.github.io/Syria-Displacement-and-Return-Atlas/10_syria_displacement_and_return_atlas.html)
 
 ## Project Overview
 
